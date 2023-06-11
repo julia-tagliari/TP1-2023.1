@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+
+    int polegadas; 
+    float centimetro; 
+
+    for (polegadas = 1; polegadas <= 20; polegadas++)
+    {
+        centimetro = polegadas * 2.54;
+        printf("%d Polegadas = %.2f Centimetros\n", polegadas, centimetro);
+    }
+    
+    return 0; 
+    
+}
